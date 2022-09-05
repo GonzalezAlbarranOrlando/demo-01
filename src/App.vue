@@ -16,12 +16,9 @@ components: { MyHeader, MyFooter}
 
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  /*Font Awesome Web Application Icons */
+  @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+  /*My css file(s)*/
+  @import '@/assets/css/styles.css';
 </style>
+  

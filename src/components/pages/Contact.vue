@@ -2,7 +2,6 @@
     <div style="background-color: goldenrod;">
         <h1>Contact</h1>
         <p>{{message}}</p>
-        <router-link to="/">Home</router-link>
     </div>
 </template>
 

@@ -2,7 +2,6 @@
     <div style="background-color: peru;">
         <h1>About us</h1>
         <p>{{message}}</p>
-        <router-link to="/">Home</router-link>
     </div>
 </template>
 
