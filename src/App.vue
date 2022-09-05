@@ -1,18 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MyHeader/>    
+  <router-view></router-view>
+  <MyFooter/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from './components/MyHeader.vue';
+import MyFooter from './components/MyFooter.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+name: 'App',
+components: { MyHeader, MyFooter}
 }
 </script>
+
 
 <style>
 #app {
