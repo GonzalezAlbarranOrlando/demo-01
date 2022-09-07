@@ -1,28 +1,70 @@
-.example{
-    background-color: aqua;
+#app {
+    font-family: Georgia, 'Lucida Console', sans-serif;
 }
 
-.bg-my-primary{
+.bg-my-primary {
     background-color: #E5E5E5;
 }
 
-.header-text {   
-    font-size: 20px;   
-    height: 70px;
-    padding-left: 90px;
-  }
+/* Animations div beginning*/
+.animate-div{
+    font-size: 500%;
+    background-color: gray;
+    color: antiquewhite;
+    /*center*/
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Animations div end*/
 
-.footer-text{
-    text-align: center;
-    color: lightgray;
-    background-color: black;
-    font-size: 12px;
-    padding: 15px;     
+/*header beginning*/
+.header-text {
+    font-size: 20px;
 }
 
-.center-table {
+.header-text ul li{
+    margin-left: 40px;
+}
+
+.header-text ul:hover li:hover{
+    border-bottom: 2px solid;
+}
+/*header end*/
+
+
+/*footer beginning*/
+.footer-text {
+    text-align: center;
+    color: black;
+    background-color: #E5E5E5;
+    font-size: 12px;
+}
+
+.footer-text table{
+    width: 100%;
+    /*center table*/
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
+.footer-text div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*footer end*/
 
+/*Grid test beginning*/
+.grid-4{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5px;
+    row-gap: 15px;
+    justify-items: end;
+}
+.grid-4 div{
+    border: 1px solid black;
+}
+/*Grid test end*/

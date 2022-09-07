@@ -3,7 +3,7 @@ import App from './App.vue'
 //vue-router
 import { createRouter, createWebHashHistory } from 'vue-router'
 //Bootstrap css
-import "bootstrap/dist/css/bootstrap.css"
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 // 1. Define route components.
@@ -34,4 +34,4 @@ app.use(router)
 
 app.mount('#app')
 //Bootstrap js
-import "bootstrap/dist/js/bootstrap.js"
+import 'bootstrap/dist/js/bootstrap.js'

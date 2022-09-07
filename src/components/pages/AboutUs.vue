@@ -1,7 +1,6 @@
 <template>
-    <div style="background-color: peru;">
-        <h1>About us</h1>
-        <p>{{message}}</p>
+    <div class="animate-div">
+        <p class="animate__animated animate__heartBeat">ABOUT US</p>
     </div>
 </template>
 

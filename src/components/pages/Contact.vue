@@ -1,7 +1,6 @@
 <template>
-    <div style="background-color: goldenrod;">
-        <h1>Contact</h1>
-        <p>{{message}}</p>
+    <div class="animate-div">
+        <p class="animate__animated animate__heartBeat">CONTACT</p>
     </div>
 </template>
 
