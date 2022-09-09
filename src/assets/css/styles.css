@@ -6,21 +6,21 @@
     background-color: #E5E5E5;
 }
 
-/* Animations div beginning*/
+/* Animations div */
 .animate-div{
     font-size: 500%;
     background-color: gray;
     color: antiquewhite;
-    /*center*/
+    /* center */
     height: 500px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* Animations div end*/
+/* End Animations div */
 
-/*header beginning*/
+/* header */
 .header-text {
     font-size: 20px;
 }
@@ -32,10 +32,10 @@
 .header-text ul:hover li:hover{
     border-bottom: 2px solid;
 }
-/*header end*/
+/* End header */
 
 
-/*footer beginning*/
+/* footer */
 .footer-text {
     text-align: center;
     color: black;
@@ -45,7 +45,7 @@
 
 .footer-text table{
     width: 100%;
-    /*center table*/
+    /* center table */
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,9 +54,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-/*footer end*/
+/* End footer */
 
-/*Grid test beginning*/
+/* Grid test */
 .grid-4{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
@@ -67,4 +67,4 @@
 .grid-4 div{
     border: 1px solid black;
 }
-/*Grid test end*/
+/* End Grid test */
