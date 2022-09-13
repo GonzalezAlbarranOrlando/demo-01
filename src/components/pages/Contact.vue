@@ -3,7 +3,7 @@
         <p class="animate__animated animate__heartBeat">CONTACT</p>
     </div>
     <!-- Form Code -->
-    <div class="container" style="padding: 50px;">
+    <div class="container my-5">
         <h4 class="mb-3">Contáctanos</h4>
         <form @submit.prevent="myValidation">
             <div class="row">
